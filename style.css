@@ -1,0 +1,420 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .primary-btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 23px;
+  }
+  .secondary-btn{
+    border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+border: none;
+font-style: normal;
+font-weight: 600;
+padding: 15px 30px;
+font-size: 15px;
+line-height: normal;
+cursor: pointer;
+text-transform: uppercase;
+  }
+
+  /* Header Area CSS  */
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+  nav .logo{
+    display: flex;
+    align-items: center;
+  }
+
+  nav .logo img{
+
+  }
+  nav .logo h1{
+    margin-left: 10px;
+    color: #0B0223;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+  .logo h1 span{
+    color: #FF42A5;
+  }
+  nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+  }
+  .menu a{
+    text-decoration: none;
+    color: #3C354F;
+    margin-left: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .menu .menu-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 250px;
+    height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-left: 20px;
+  }
+  .menu-icon i{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  #icon-col{
+    color: red;
+  }
+
+  /* Banner Section CSS  */
+  .banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+  }
+  .banner-content{
+    padding: 100px 40px;
+  }
+ 
+  .banner-img{
+    width: 500px;
+    height: 526px;
+
+  }
+  .banner-img img{
+    width: 100%; 
+  }
+  .banner-content h2{
+    color: #0B0223;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .banner-content h1{
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .icon-content{
+    display: flex;
+    margin-top: 12px;
+  }
+  .icon-content p{
+    margin-left: 5px;
+    color: #534C64;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+ /* Gamer Section CSS 
+  */
+  .gamer-section{
+    width: 90vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .gamer-img{
+    width: 800px;
+    height: 489px;
+    flex-shrink: 0;
+
+  }
+  .gamer-img img{
+    width: 100%;
+  }
+  .gamer-content{
+    padding: 20px;
+  }
+  .gamer-content h2{
+    text-align: right;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .gamer-content p{
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 166.667% */
+    margin: 10px 0px;
+  }
+  .gamer-btn{
+    display: inline-flex;
+    /* padding: 21px 40px; */
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .gamer-content .desc{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+
+
+  /* Online Game CSS  */
+  .online-game-section{
+    margin: 120px auto;
+    text-align: center;
+  }
+  .online-game-section h1{
+    color: #0B0223;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .online-game-section span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .online-game-section p{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #534C64;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+  }
+  .online-game-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    width: 80vw;
+    margin: 40px auto;
+  }
+  .box-img{
+    width: 250px;
+    height: 300px;
+
+  }
+  .box-img img{
+    width: 100%;
+  }
+  .box-img p{
+    color: #534C64;
+   margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 150% */
+  }
+
+  /* Play Section  CSS  */
+  .play-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .play-image .main-img{
+    height: 370px;
+    width: 400px;
+   
+  }
+  .play-image .op-image{
+    height: 200px;
+    width: 180px;
+    position: relative;
+    bottom: 140px;
+    right: 0;
+    margin-left: 290px;
+   
+  }
+
+  .play-image img{
+    width: 100%;
+  }
+  .play-content{
+    display: flex;
+    justify-content: center;
+    padding: 130px 80px;
+    /* align-items: center; */
+  }
+  .play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .play-content p{
+    margin: 20px 0px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; /* 166.667% */
+  }
+  .game-selection-section{
+    width: 80vw;
+    margin: 0 auto;
+    height: 427px;
+  }
+
+
+  /* Game Section CSS  */
+
+.game-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 427px;
+
+}
+.game-content{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+}
+.game-content img{
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+}
+.game-content p{
+    color: #0B0223;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .hide{
+    display: none;
+  }
+  /* Mobile Device Responsive */
+  @media screen and (max-width:576px) {
+        nav,.menu,.banner-section,.gamer-section,.online-game-img,.play-section{
+            flex-direction: column;
+            
+        }
+        .logo{
+            padding-top: 10%;
+        }
+        .menu{
+            margin-top: 8%;
+        }
+        .menu a,.menu-icon{
+            margin-top: 12%;
+        }
+        .menu-icon a{
+           margin-top: 0px;
+        }
+        .banner-content{
+            padding: 200px 0px;
+        }
+        /* .play-image{
+            width: 273px;
+            height: 264px;
+        } */
+         
+        .box-img img,.play-image img{
+            width: 100%;
+        }
+        .box-img{
+            margin: 40px 0px;
+        }
+        .banner-img{
+            width: 400px;
+    height: 526px;
+}
+        
+        .play-content {
+            padding: 30px;
+        }
+        .play-image .main-img{
+            height: 287px;
+            width: 295px;
+        }
+        .play-image .op-image{
+            height: 149px;
+            width: 118px;
+            bottom: 100px;
+            margin-left: 250px;
+}
+}
+
+       
+  
