@@ -236,9 +236,11 @@ text-transform: uppercase;
     line-height: 30px; /* 166.667% */
   }
   .online-game-img{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
     text-align: left;
     width: 80vw;
     margin: 40px auto;
@@ -325,9 +327,9 @@ text-transform: uppercase;
   }
   .play-content span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   .play-content p{
     margin: 20px 0px;
@@ -463,9 +465,16 @@ footer p{
   }
   /* Mobile Device Responsive */
   @media screen and (max-width:576px) {
-        nav,.menu,.banner-section,.gamer-section,.online-game-img,.play-section{
+        nav,.menu,.banner-section,.gamer-section,.play-section{
             flex-direction: column;
             
+        }
+        .online-game-img{
+          /* grid-template-columns: 1fr; */
+          /* align-content: center; */
+          /* margin:0px 50px; */
+          /* justify-content: center; */
+          
         }
         .nav{
             height: auto;
@@ -532,11 +541,11 @@ footer p{
         } */
         footer{
             height: auto;
-           
+            max-width: 100%;
         }
         .footer-container{
             text-align: center;
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
         }
         .footer-container .logo{
@@ -582,6 +591,44 @@ footer p{
         }
        
 }
+@media screen and (min-width:576px) and (max-width:992px){
+  .banner-section,.play-section{
+    flex-direction: column;
+    
+  }
+  .banner-content{
+    padding: 100px 0px;
+  }
+  .online-game-img{
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  .box-img{
+    margin-top: 80px;
+  }
+  .play-content{
+    padding-bottom: 30px;
+  }
+  .play-image{
+    margin: 0px 100px;
+  }
+  .game-content img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+  .footer-container{
+    padding-top: 40px;
+
+  }
+  footer{
+    height: auto;
+    margin-top: 140px;
+  }
+   
+}
+
+
 
        
   
