@@ -509,8 +509,8 @@ footer p{
         }
         .banner-img{
             width: 400px;
-    height: 526px;
-}
+            height: 526px;
+        }
         
         .play-content {
             padding: 30px;
@@ -525,18 +525,18 @@ footer p{
             bottom: 100px;
             margin-left: 250px;
         }
-        .hide{
-            display: none;
+        .game-content{
+          
         }
+        
         .game-content img{
             height: 30px;
             width: 30px;
-            margin-right: 5px;
+            margin-right: 6px;
         }
         .game-content p{
-         
             font-size: 10px;
-        
+            margin-right: 0px;
         }
         /* .footer-container{
             height: 50vh;
