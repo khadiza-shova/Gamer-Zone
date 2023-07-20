@@ -32,6 +32,7 @@ font-size: 15px;
 line-height: normal;
 cursor: pointer;
 text-transform: uppercase;
+margin-left: 8px;
   }
 
   /* Header Area CSS  */
@@ -104,8 +105,8 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFFFFF;
-    
+    background: #FFF;
+
   }
   .banner-content{
     padding: 100px 40px;
@@ -137,7 +138,6 @@ text-transform: uppercase;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
   }
   .icon-content{
     display: flex;
@@ -150,7 +150,7 @@ text-transform: uppercase;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: lowercase;
+    text-transform: capitalize;
   }
  /* Gamer Section CSS 
   */
@@ -428,6 +428,7 @@ footer{
 }
 .social-icon i{
     margin-right: 17px;
+    cursor: pointer;
 }
 .term-and-condition a,p{
     color: rgba(255, 255, 255, 0.60);
@@ -545,12 +546,13 @@ footer p{
         }
         .footer-container{
             text-align: center;
-            width: 100%;
+            /* width: 100%; */
             margin: 0 auto;
         }
         .footer-container .logo{
-            margin-bottom: 0px;
-            margin-top: 0px;
+            /* margin-bottom: 0px;
+            margin-top: 0px; */
+            padding-top: 40px;
         }
         .footer-container .logo img{
             width: 70px; 
@@ -560,12 +562,14 @@ footer p{
             margin-top: 30px;
         }
         .footer-con a{
-            margin: 10px 15px;
+            margin: 10px 30px;
+            font-size: 15px;
         }
 
         .social-icon i{
             margin-left: 50px;
             margin-top: 30px;
+            font-size: 30px;
         }
         .term-and-condition a{
             display: inline-block;
@@ -612,18 +616,21 @@ footer p{
   .play-image{
     margin: 0px 100px;
   }
+  .game-content{
+    padding-bottom: 10px;
+  }
   .game-content img{
     height: 30px;
     width: 30px;
     margin-right: 5px;
 }
   .footer-container{
-    padding-top: 40px;
+    padding: 40px 0px;
 
   }
   footer{
     height: auto;
-    margin-top: 140px;
+    margin-top: 80px;
   }
    
 }
