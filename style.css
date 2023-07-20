@@ -300,6 +300,7 @@ margin-left: 8px;
     justify-content: space-around;
     width: 80vw;
     margin: 0 auto;
+    padding-top: 20px;
   }
   .play-image .main-img{
     height: 370px;
@@ -558,8 +559,8 @@ footer p{
             width: 70px; 
         }
         .footer-con,.social-icon{ 
-            
-            margin-top: 30px;
+            margin-top: 10px;
+            margin-bottom: 0px
         }
         .footer-con a{
             margin: 10px 30px;
@@ -571,10 +572,16 @@ footer p{
             margin-top: 30px;
             font-size: 30px;
         }
+        .term-and-condition{
+
+        }
         .term-and-condition a{
             display: inline-block;
             margin-left: 20px;
             margin-top: 30px;
+        }
+        footer p{
+          margin-top: 0px;
         }
         .footer-container p{
             padding: 60px;
@@ -593,6 +600,11 @@ footer p{
         .online-game-section div {
             padding:0px 0px;
         }
+        .online-game-section {
+          margin: 2px auto;
+          text-align: center;
+      }
+
        
 }
 @media screen and (min-width:576px) and (max-width:992px){
@@ -607,11 +619,21 @@ footer p{
     grid-template-columns: repeat(2,1fr);
    
   }
+ 
+    .online-game-section {
+      margin: 90px auto;
+      text-align: center;
+  
+  }
   .box-img{
-    margin-top: 80px;
+    margin-bottom: 80px;
   }
   .play-content{
     padding-bottom: 30px;
+  }
+  .play-content{
+   
+    padding: 0px 80px 10px ;
   }
   .play-image{
     margin: 0px 100px;
